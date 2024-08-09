@@ -1,0 +1,143 @@
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .container-videos {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+        }
+
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 50px;
+        }
+
+        .container-videos img {
+            opacity: 0.5;
+            height: 200px;
+        }
+
+        .container-videos img:hover {
+            opacity: 1.0;
+            border: 3px solid green;
+        }
+
+        .container h2 {
+            color: rgb(42, 122, 228);
+        }
+        .movie-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .movie {
+            background: #333;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            width: calc(25% - 20px);
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .movie img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .divider {
+            height: 50px;
+            background-color: white;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .movie-title {
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            color: white;
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="chamada">
+            <section class="chamada">
+                <div class="chamada-texto">
+                    <h1>ATRAVÉS DO ARANHAVERSO</h1>
+                    <p>#homem-aranha</p>
+                </div>
+        
+                <div>
+                    <iframe width="540" height="295" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
+        <div class="divider"></div>
+        <div class="container">
+            <section class="container">
+                <h2>Sobre Filmes</h2>
+                <div class="container-videos">
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
+                            <div class="movie-title">Filme 1</div>
+                            <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
+                            <div class="movie-title">Filme 2</div>
+                            <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
+                            <div class="movie-title">Filme 3</div>
+                            <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg" />
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
+                            <div class="movie-title">Filme 4</div>
+                            <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg" />
+                        </a>
+                    </div>
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
+                            <div class="movie-title">Filme 5</div>
+                            <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg" />
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </header>
+</body>
+</html>
